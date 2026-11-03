@@ -927,7 +927,7 @@ export default function App() {
 
       {/* MAIN CONTENT AREA */}
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 w-full flex-1">
-        {/* TAB 1: KALKULATOR & SIMULATOR KEUNTUNGAN BEASISWA */}
+        {/* TAB 1: KALKULATOR & SIMULATOR BEASISWA */}
         {activeTab === 'calculator' && (
           <div className="space-y-8 animate-in fade-in duration-200">
             {/* Header Banner */}
@@ -937,7 +937,7 @@ export default function App() {
                   <Coins className="w-4 h-4" /> Financial Valuation & Stipend Simulator
                 </span>
                 <h2 className="text-2xl sm:text-3xl font-extrabold tracking-tight mb-2">
-                  Berapa Nilai Riil Rupiah & Keuntungan yang Anda Dapatkan dari Beasiswa?
+                  Berapa Nilai Riil Rupiah yang Anda Dapatkan dari Beasiswa?
                 </h2>
                 <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
                   Banyak yang belum menyadari bahwa beasiswa bergengsi bernilai antara <strong className="text-emerald-300">Rp 500 Juta hingga Rp 2 Miliar</strong> per mahasiswa! Simulasikan komponen uang saku, biaya kuliah, serta estimasi sisa tabungan bersih yang bisa Anda kumpulkan.
